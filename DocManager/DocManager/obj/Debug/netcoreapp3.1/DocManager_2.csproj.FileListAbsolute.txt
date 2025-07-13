@@ -1,0 +1,7 @@
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.GeneratedMSBuildEditorConfig.editorconfig
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.AssemblyInfoInputs.cache
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.AssemblyInfo.cs
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.csproj.CoreCompileInputs.cache
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.MvcApplicationPartsAssemblyInfo.cache
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.RazorAssemblyInfo.cache
+I:\DocSpiderteste\DocManager_2\DocManager_2\obj\Debug\netcoreapp3.1\DocManager_2.RazorAssemblyInfo.cs

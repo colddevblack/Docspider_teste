@@ -1,0 +1,108 @@
+﻿@using DocManager.Models
+@model Paginacao<DocManager.Models.Document>
+@{
+    ViewData["Title"] = "Meus Documentos";
+}
+
+<h2>Meus Documentos</h2>
+
+<form method="get">
+    <input type="text" name="filtro" value="@ViewBag.Filtro" placeholder="Buscar..." class="form-control mb-2" />
+    <button type="submit" class="btn btn-outline-primary">Filtrar</button>
+</form>
+
+<table class="table table-striped table-responsive">
+    <thead>
+        <tr>
+            <th>@Html.ActionLink("Título", "Index", new { sort = "Titulo", filtro = ViewBag.Filtro })</th>
+            <th>Descrição</th>
+            <th>Nome do Arquivo</th>
+            <th>Data de Criação</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doc in Model.Itens)
+        {
+            <tr>
+                <td>@doc.Titulo</td>
+                <td>@doc.CriadoEm.ToString("dd/MM/yyyy")</td>
+                <td>@doc.NomeArquivo</td>
+                <td>@doc.CriadoEm</td>
+                <td>
+                    <div class="btn-group" role="group">
+
+                        <!-- Visualizar (abre o arquivo) -->
+                        <a class="btn btn-sm btn-outline-primary"
+                           target="_blank"
+                           href="@Url.Content($"~/{doc.CaminhoFisico.Replace("wwwroot\\", "").Replace("\\", "/")}")">
+                            👁️ Visualizar
+                        </a>
+                        <!-- Download -->
+                        <a class="btn btn-sm btn-outline-success"
+                           asp-action="Download"
+                           asp-route-id="@doc.Id">
+                            ⬇️ Download
+                        </a>
+
+
+                        <!-- Editar -->
+                        <a asp-action="Editar" asp-route-id="@doc.Id"
+                           class="btn btn-sm btn-outline-warning">
+                            ✏️ Editar
+                        </a>
+
+                        <!-- Excluir -->
+                <td>
+                    <form asp-controller="Documentos"
+                          asp-action="Excluir"
+                          asp-route-id="@doc.Id"
+                          method="post"
+                          style="display:inline">
+
+                                @Html.AntiForgeryToken()
+                        <button type="submit"
+                                class="btn btn-sm btn-outline-danger"
+                                onclick="return confirm('Tem certeza que deseja excluir este documento?')">
+                            🗑️ Excluir
+                        </button>
+                    </form>
+                </td>
+                      @*   <a asp-action="Excluir" asp-route-id="@doc.Id"
+                           class="btn btn-sm btn-outline-danger"
+                           onclick="return confirm('Tem certeza que deseja excluir este documento?')">
+                            🗑️ Excluir
+                        </a> *@
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<!-- Paginação aqui -->
+<!-- Paginação Visual -->
+@if (Model.TotalPaginas > 1)
+{
+    <nav aria-label="Paginação">
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(Model.PaginaAtual == 1 ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-pagina="@(Model.PaginaAtual - 1)">
+                    &laquo; Anterior
+                </a>
+            </li>
+            @for (int i = 1; i <= Model.TotalPaginas; i++)
+            {
+                <li class="page-item @(Model.PaginaAtual == i ? "active" : "")">
+                    <a class="page-link" asp-action="Index" asp-route-pagina="@i">@i</a>
+                </li>
+            }
+            <li class="page-item @(Model.PaginaAtual == Model.TotalPaginas ? "disabled" : "")">
+                <a class="page-link" asp-action="Index" asp-route-pagina="@(Model.PaginaAtual + 1)">
+                    Próximo &raquo;
+                </a>
+            </li>
+        </ul>
+    </nav>
+}

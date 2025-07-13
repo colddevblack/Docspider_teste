@@ -1,0 +1,424 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "I:\\DocSpiderteste\\DocManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\views\\documentos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\services\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\services\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\models\\documentodownload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\models\\documentodownload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7262CCB0-D857-4F27-949E-91E9EFA261B6}|DocmanagerTests\\DocmanagerTests.csproj|i:\\docspiderteste\\docmanager\\docmanagertests\\documentoscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7262CCB0-D857-4F27-949E-91E9EFA261B6}|DocmanagerTests\\DocmanagerTests.csproj|solutionrelative:docmanagertests\\documentoscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7262CCB0-D857-4F27-949E-91E9EFA261B6}|DocmanagerTests\\DocmanagerTests.csproj|i:\\docspiderteste\\docmanager\\docmanagertests\\docmanagertests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7262CCB0-D857-4F27-949E-91E9EFA261B6}|DocmanagerTests\\DocmanagerTests.csproj|solutionrelative:docmanagertests\\docmanagertests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7262CCB0-D857-4F27-949E-91E9EFA261B6}|DocmanagerTests\\DocmanagerTests.csproj|i:\\docspiderteste\\docmanager\\docmanagertests\\docmanagertests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7262CCB0-D857-4F27-949E-91E9EFA261B6}|DocmanagerTests\\DocmanagerTests.csproj|solutionrelative:docmanagertests\\docmanagertests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\views\\documentos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\views\\documentos\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\views\\documentos\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\views\\documentos\\detalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\models\\paginacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\models\\paginacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\views\\documentos\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\views\\documentos\\criar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|I:\\DocSpiderteste\\DocManager\\DocManager\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Documentos\\Detalhes.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DocManager\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Documentos\\Detalhes.cshtml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\migrations\\20250712095826_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\migrations\\20250712095826_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|i:\\docspiderteste\\docmanager\\docmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}|DocManager\\DocManager.csproj|solutionrelative:docmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DocumentoDownload.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Models\\DocumentoDownload.cs",
+              "RelativeDocumentMoniker": "DocManager\\Models\\DocumentoDownload.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Models\\DocumentoDownload.cs",
+              "RelativeToolTip": "DocManager\\Models\\DocumentoDownload.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T06:11:27.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DocManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DocManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAqwHMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T05:59:02.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DocmanagerTests",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocmanagerTests\\DocmanagerTests.csproj",
+              "RelativeDocumentMoniker": "DocmanagerTests\\DocmanagerTests.csproj",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocmanagerTests\\DocmanagerTests.csproj",
+              "RelativeToolTip": "DocmanagerTests\\DocmanagerTests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T05:47:03.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DocmanagerTests",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocmanagerTests\\DocmanagerTests.csproj",
+              "RelativeDocumentMoniker": "DocmanagerTests\\DocmanagerTests.csproj",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocmanagerTests\\DocmanagerTests.csproj",
+              "RelativeToolTip": "DocmanagerTests\\DocmanagerTests.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-13T05:47:08.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DocumentosControllerTests.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocmanagerTests\\DocumentosControllerTests.cs",
+              "RelativeDocumentMoniker": "DocmanagerTests\\DocumentosControllerTests.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocmanagerTests\\DocumentosControllerTests.cs",
+              "RelativeToolTip": "DocmanagerTests\\DocumentosControllerTests.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwIUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T05:43:41.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Paginacao.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Models\\Paginacao.cs",
+              "RelativeDocumentMoniker": "DocManager\\Models\\Paginacao.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Models\\Paginacao.cs",
+              "RelativeToolTip": "DocManager\\Models\\Paginacao.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T04:42:38.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DocManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T03:30:36.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DocManager\\Controllers\\HomeController.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DocManager\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAuwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T03:30:31.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Editar.cshtml",
+              "RelativeDocumentMoniker": "DocManager\\Views\\Documentos\\Editar.cshtml",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Editar.cshtml",
+              "RelativeToolTip": "DocManager\\Views\\Documentos\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T10:19:24.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Detalhes.cshtml.g.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Documentos\\Detalhes.cshtml.g.cs",
+              "RelativeDocumentMoniker": "DocManager\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Documentos\\Detalhes.cshtml.g.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Documentos\\Detalhes.cshtml.g.cs",
+              "RelativeToolTip": "DocManager\\obj\\Debug\\netcoreapp3.1\\Razor\\Views\\Documentos\\Detalhes.cshtml.g.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAwwPcAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T10:17:19.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Detalhes.cshtml",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Detalhes.cshtml",
+              "RelativeDocumentMoniker": "DocManager\\Views\\Documentos\\Detalhes.cshtml",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Detalhes.cshtml",
+              "RelativeToolTip": "DocManager\\Views\\Documentos\\Detalhes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T10:15:46.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "site.css",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DocManager\\wwwroot\\css\\site.css",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DocManager\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-12T10:09:02.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250712095826_Inicial.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Migrations\\20250712095826_Inicial.cs",
+              "RelativeDocumentMoniker": "DocManager\\Migrations\\20250712095826_Inicial.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Migrations\\20250712095826_Inicial.cs",
+              "RelativeToolTip": "DocManager\\Migrations\\20250712095826_Inicial.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T09:58:26.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Index.cshtml",
+              "RelativeDocumentMoniker": "DocManager\\Views\\Documentos\\Index.cshtml",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Index.cshtml",
+              "RelativeToolTip": "DocManager\\Views\\Documentos\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAQwCUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T09:39:00.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Criar.cshtml",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Criar.cshtml",
+              "RelativeDocumentMoniker": "DocManager\\Views\\Documentos\\Criar.cshtml",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Views\\Documentos\\Criar.cshtml",
+              "RelativeToolTip": "DocManager\\Views\\Documentos\\Criar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T09:37:45.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Program.cs",
+              "RelativeDocumentMoniker": "DocManager\\Program.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Program.cs",
+              "RelativeToolTip": "DocManager\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T02:08:58.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAABYAAAAAAAAAAAAlwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-11T02:06:37.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Services\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "DocManager\\Services\\IDocumentService.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Services\\IDocumentService.cs",
+              "RelativeToolTip": "DocManager\\Services\\IDocumentService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T01:33:16.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Startup.cs",
+              "RelativeDocumentMoniker": "DocManager\\Startup.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Startup.cs",
+              "RelativeToolTip": "DocManager\\Startup.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAD4vx8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T01:12:59.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\appsettings.json",
+              "RelativeDocumentMoniker": "DocManager\\appsettings.json",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\appsettings.json",
+              "RelativeToolTip": "DocManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-11T01:12:03.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Document.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "DocManager\\Models\\Document.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Models\\Document.cs",
+              "RelativeToolTip": "DocManager\\Models\\Document.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA1wBcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T01:10:12.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentService.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Services\\DocumentService.cs",
+              "RelativeDocumentMoniker": "DocManager\\Services\\DocumentService.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Services\\DocumentService.cs",
+              "RelativeToolTip": "DocManager\\Services\\DocumentService.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwFEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:58:39.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "DocManager\\Controllers\\DocumentsController.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "DocManager\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAmwCcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:44:01.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "I:\\DocSpiderteste\\DocManager\\DocManager\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DocManager\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "I:\\DocSpiderteste\\DocManager\\DocManager\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DocManager\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T00:43:55.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

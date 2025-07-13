@@ -1,0 +1,132 @@
+﻿// Views/Shared/_Layout.cshtml
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>@ViewData["Title"] - DocumentosApp</title>
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="~/css/site.css" />
+  <script src="~/lib/jquery/dist/jquery.min.js"></script>
+  <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+  <div class="d-flex">
+    <nav id="sidebar" class="bg-light border-right">
+      <div class="sidebar-header text-center py-4">
+        <h4>DocumentosApp</h4>
+      </div>
+      <ul class="nav flex-column">
+        <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Home" ? "active" : "")">
+          <a class="nav-link" asp-controller="Home" asp-action="Index">
+            <i class="fas fa-home"></i> <span class="d-none d-md-inline">Home</span>
+          </a>
+        </li>
+        <li class="nav-item @(ViewContext.RouteData.Values["controller"]?.ToString() == "Documentos" ? "active" : "")">
+          <a class="nav-link" asp-controller="Documentos" asp-action="Index">
+            <i class="fas fa-file-alt"></i> <span class="d-none d-md-inline">Meus Documentos</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="content" class="flex-grow-1">
+      <nav class="navbar navbar-light bg-white border-bottom">
+        <button class="btn btn-outline-secondary" id="btn-toggle-menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+
+      <div class="container-fluid py-4">
+        @RenderBody()
+      </div>
+
+      <footer class="bg-light text-center py-3 border-top">
+        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#sobreModal">
+          Sobre
+        </button>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Modal Sobre -->
+    <div class="modal fade" id="sobreModal" tabindex="-1" role="dialog" aria-labelledby="sobreModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+
+                <!-- Cabeçalho -->
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sobreModalLabel">DocumentosApp v1.0</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <!-- Corpo -->
+                <div class="modal-body">
+                    <h1>Sobre o DocManager</h1>
+
+                    <section class="mt-3">
+                        <h2>Features do Sistema</h2>
+                        <ul>
+                            <li>Upload e download de documentos (PDF, DOCX, TXT…)</li>
+                            <li>Preview de arquivos diretamente no navegador</li>
+                            <li>Paginação manual sem pacotes externos</li>
+                            <li>CRUD completo com confirmação de exclusão</li>
+                            <li>API para geração de dados de gráficos</li>
+                            <li>Testes unitários com xUnit e Moq</li>
+                        </ul>
+                    </section>
+
+                    <section class="mt-3">
+                        <h2>Tecnologias Utilizadas</h2>
+                        <table class="table table-sm">
+                            <thead>
+                                <tr><th>Camada</th><th>Tecnologia</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Backend</td><td>ASP.NET Core MVC, EF Core</td></tr>
+                                <tr><td>Banco de Dados</td><td>SQL Server / SQLite</td></tr>
+                                <tr><td>Frontend</td><td>Razor Views, Bootstrap 4</td></tr>
+                                <tr><td>Testes</td><td>xUnit, Moq</td></tr>
+                                <tr><td>DevOps</td><td>Git, GitHub Actions</td></tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <section class="mt-3">
+                        <h2>Arquitetura e Padrões</h2>
+                        <ul>
+                            <li>Dependency Injection</li>
+                            <li>Service Layer</li>
+                            <li>MVC</li>
+                            <li>IWebHostEnvironment para arquivos</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <!-- Rodapé (opcional) -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+  <script>
+    $(function () {
+      $('#btn-toggle-menu').click(function () {
+        if ($(window).width() >= 768) {
+          $('#sidebar').toggleClass('collapsed');
+          $('#content').toggleClass('expanded');
+        } else {
+          $('#sidebar').toggleClass('open');
+        }
+      });
+    });
+  </script>
+  @RenderSection("Scripts", required: false)
+</body>
+</html>

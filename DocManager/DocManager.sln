@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocManager", "DocManager\DocManager.csproj", "{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocmanagerTests", "DocmanagerTests\DocmanagerTests.csproj", "{7262CCB0-D857-4F27-949E-91E9EFA261B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADCAA87-FA79-4C76-28C4-AA110E4EF62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7262CCB0-D857-4F27-949E-91E9EFA261B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7262CCB0-D857-4F27-949E-91E9EFA261B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7262CCB0-D857-4F27-949E-91E9EFA261B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7262CCB0-D857-4F27-949E-91E9EFA261B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A90675D5-5526-495F-884C-8FA377EA41D8}
+	EndGlobalSection
+EndGlobal

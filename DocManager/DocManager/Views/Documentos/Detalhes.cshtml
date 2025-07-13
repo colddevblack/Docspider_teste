@@ -1,0 +1,29 @@
+﻿@model DocManager.Models.Document
+@{
+    ViewData["Title"] = "Detalhes do Documento";
+}
+
+<h2>Detalhes do Documento</h2>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Titulo</h5>
+        <p><strong>Descrição:</strong> @Model.Descricao</p>
+        <p><strong>Nome do Arquivo:</strong> @Model.NomeArquivo</p>
+        <p><strong>Data de Criação:</strong> @Model.CriadoEm.ToString("g")</p>
+
+        <a asp-controller="Documentos" asp-action="Download" asp-route-id="@Model.Id" class="btn btn-outline-primary">📥 Baixar Arquivo</a>
+
+        <form asp-action="Excluir" asp-route-id="@Model.Id" method="post" class="d-inline">
+            <button type="submit" class="btn btn-danger" onclick="return confirm('Confirma exclusão?')">🗑️ Excluir Documento</button>
+        </form>
+
+        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    </div>
+</div>
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h1>Detalhes</h1>
+

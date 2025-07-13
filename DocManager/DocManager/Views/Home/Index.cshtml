@@ -1,0 +1,114 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "_Layout";
+}
+
+<!-- Mensagem de boas-vindas -->
+<div class="alert alert-primary mt-3 text-center" role="alert">
+    👋 Olá! Bem-vindo ao <strong>DocManager</strong>, sua central de gerenciamento de documentos.
+</div>
+
+<!-- Botão Criar Documento -->
+<div class="text-center mt-4">
+    <a asp-controller="Documentos" asp-action="Criar" class="btn btn-lg btn-primary shadow">
+        📁 Criar Novo Documento
+    </a>
+</div>
+
+<!-- Card com total de documentos -->
+<div class="row mt-4">
+    <div class="col-md-4 offset-md-4">
+        <div class="card text-white bg-info">
+            <div class="card-body text-center">
+                <h5 class="card-title">Total de Documentos</h5>
+                <h3>@ViewBag.TotalDocs</h3>
+                <p class="card-text">Cadastrados no sistema</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gráfico de documentos criados por dia -->
+<div class="mt-5">
+    <h4 class="text-center">📊 Documentos Criados por Dia</h4>
+    <canvas id="graficoDocs" height="120"></canvas>
+</div>
+
+<!-- Últimos documentos -->
+<div class="mt-5">
+    <h4>🕒 Últimos Documentos Cadastrados</h4>
+    <ul class="list-group">
+        @foreach (var doc in ViewBag.Ultimos as List<DocManager.Models.Document>)
+        {
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>@doc.Titulo</span>
+                <small class="text-muted">@doc.CriadoEm.ToString("g")</small>
+            </li>
+        }
+    </ul>
+</div>
+
+<div class="mt-5">
+    <h4 class="text-center">📊 Documentos Criados por Dia - Api</h4>
+    <canvas id="graficoDocs" height="120"></canvas>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('graficoDocs').getContext('2d');
+        const grafico = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: @Html.Raw(Json.Serialize(ViewBag.GraficoLabels)),
+                datasets: [{
+                    label: 'Documentos',
+                    data: @Html.Raw(Json.Serialize(ViewBag.GraficoValores)),
+                    backgroundColor: 'rgba(0, 102, 204, 0.6)',
+                    borderColor: 'rgba(0, 102, 204, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { stepSize: 1 }
+                    }
+                }
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        fetch('/api/grafico-documentos')
+            .then(res => res.json())
+            .then(dados => {
+                const labels = dados.map(x => x.label);
+                const values = dados.map(x => x.value);
+
+                const ctx = document.getElementById('graficoDocs').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Documentos',
+                            data: values,
+                            backgroundColor: 'rgba(0, 102, 204, 0.6)',
+                            borderColor: 'rgba(0, 102, 204, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true,
+                                ticks: { stepSize: 1 }
+                            }
+                        }
+                    }
+                });
+            });
+    </script>
+}
